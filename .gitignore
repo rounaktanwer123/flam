@@ -1,0 +1,14 @@
+node_modules/
+*.db
+*.db-wal
+*.db-shm
+*.log
+.DS_Store
+coverage/
+.env
+dist/
+build/
+.vscode/
+.idea/
+src/data/*.json
+src/db/

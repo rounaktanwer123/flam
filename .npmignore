@@ -1,0 +1,13 @@
+tests/
+demo.sh
+demo.ps1
+*.db
+*.db-wal
+*.db-shm
+.vscode/
+.idea/
+coverage/
+.env
+*.log
+src/db/
+

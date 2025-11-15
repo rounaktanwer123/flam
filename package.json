@@ -1,0 +1,31 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "A command-line job queue management system with workers, retries, and dead letter queue",
+  "type": "module",
+  "main": "src/app.js",
+  "bin": {
+    "queuectl": "./src/app.js"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node tests/test.js"
+  },
+  "keywords": [
+    "queue",
+    "job",
+    "worker",
+    "cli",
+    "task"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^9.2.2",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
